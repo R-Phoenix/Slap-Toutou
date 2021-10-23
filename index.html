@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hit the Mole</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <h1>Whack Toutou<br>You have 30 seconds time.</h1>
+    <p id="info">Grandpa Toutou is trying to cook. Stop her from cooking and destroying the microwave by throwing slippers at her. Atleast 20 slipper hits needed to stop her in 30 seconds. </p>
+    <p>Points : <span id="points">0</span></p>
+    <p id="rank"></p>
+    <button id="start" onclick="start()">Start</button>
+    <br>
+    <div class="main_box">
+        <div class="sub_box">
+            <div class="box">
+                <img class="image" id="1" src="asy.jpg" onclick="hit(1)">
+            </div>
+            <div class="box">
+                <img class="image" id="2" src="asy.jpg" onclick="hit(2)">
+            </div>
+            <div class="box">
+                <img class="image" id="3" src="asy.jpg" onclick="hit(3)">
+            </div>
+        </div>
+        <br>
+        <div class="sub_box">
+            <div class="box">
+                <img class="image" id="4" src="asy.jpg" onclick="hit(4)">
+            </div>
+            <div class="box">
+                <img class="image" id="5" src="asy.jpg" onclick="hit(5)">
+            </div>
+            <div class="box">
+                <img class="image" id="6" src="asy.jpg" onclick="hit(6)">
+            </div>
+        </div>
+        <br>
+        <div class="sub_box">
+            <div class="box">
+                <img class="image" id="7" src="asy.jpg" onclick="hit(7)">
+            </div>
+            <div class="box">
+                <img class="image" id="8" src="asy.jpg" onclick="hit(8)">
+            </div>
+            <div class="box">
+                <img class="image" id="9" src="asy.jpg" onclick="hit(9)">
+            </div>
+        </div>
+    </div>
+    <script src="tou.js"></script>
+</body>
+</html>
